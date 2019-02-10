@@ -124,13 +124,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a8ecf6f18127624793244bc373ac972, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 200
+  health: 75
+  scoreValue: 75
   shotCounter: 0
   minTimeBetweenShots: 0.2
-  maxTimeBetweenShots: 3
-  enemyProjectile: {fileID: 302434540793061937, guid: a5272c419fe528d43b0a269d40920b64,
+  maxTimeBetweenShots: 1.5
+  enemyProjectile: {fileID: 302434540793061937, guid: eec6ba4150bd273439d6060956903473,
     type: 3}
-  projectileSpeed: 5
+  projectileSpeed: 8
   explosureVFX: {fileID: 7025094606703593814, guid: 0d0327ec2ab8bd34cbc8a5f75c476efc,
     type: 3}
   shootSound: {fileID: 8300000, guid: 74e2895e807cf6f4d96d73608b72469e, type: 3}
@@ -168,4 +169,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff3f0a2eea4384a43b1216e4a0e1ee13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 100
+  damage: 50
