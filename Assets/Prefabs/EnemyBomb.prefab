@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2184559580797449260}
   - component: {fileID: 7540498629697304478}
   - component: {fileID: 3987540619075094546}
+  - component: {fileID: 2441970821756710169}
   m_Layer: 11
   m_Name: EnemyBomb
   m_TagString: Untagged
@@ -94,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff3f0a2eea4384a43b1216e4a0e1ee13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 300
+  damage: 150
 --- !u!50 &7540498629697304478
 Rigidbody2D:
   serializedVersion: 4
@@ -142,3 +143,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.35786206, y: 0.3684551}
   m_EdgeRadius: 0
+--- !u!114 &2441970821756710169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302434540793061937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22fd8283a4e501646aa59db26b045c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpin: 720

@@ -312,7 +312,7 @@ GameObject:
 --- !u!199 &748594739
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5010,7 +5010,7 @@ GameObject:
 --- !u!199 &1207749537
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10104,9 +10104,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2906473555573268493, guid: 08a859e1fb7642f47b5637de721402b4,
         type: 3}
-      propertyPath: looping
-      value: 1
+      propertyPath: waveConfigs.Array.size
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2906473555573268493, guid: 08a859e1fb7642f47b5637de721402b4,
+        type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906473555573268493, guid: 08a859e1fb7642f47b5637de721402b4,
+        type: 3}
+      propertyPath: waveConfigs.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: c063e94a419519549bff70928224fbe2,
+        type: 2}
+    - target: {fileID: 2906473555573268493, guid: 08a859e1fb7642f47b5637de721402b4,
+        type: 3}
+      propertyPath: waveConfigs.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 51369adefd53eaf478a746bab41d347e,
+        type: 2}
+    - target: {fileID: 2906473555573268493, guid: 08a859e1fb7642f47b5637de721402b4,
+        type: 3}
+      propertyPath: waveConfigs.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: b3dcf4486b35a2642961e1d54faf05ea,
+        type: 2}
+    - target: {fileID: 2906473555573268493, guid: 08a859e1fb7642f47b5637de721402b4,
+        type: 3}
+      propertyPath: waveConfigs.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: cb3fe9a4056015343ac72cb5f72369e0,
+        type: 2}
+    - target: {fileID: 2906473555573268493, guid: 08a859e1fb7642f47b5637de721402b4,
+        type: 3}
+      propertyPath: waveConfigs.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f963e8dea855264189fdad65dad3025,
+        type: 2}
+    - target: {fileID: 2906473555573268493, guid: 08a859e1fb7642f47b5637de721402b4,
+        type: 3}
+      propertyPath: waveConfigs.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: cf2042e4a4c8ded44ae62a6c76459dff,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08a859e1fb7642f47b5637de721402b4, type: 3}
 --- !u!1001 &3969540832261235395
